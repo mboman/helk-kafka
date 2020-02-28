@@ -1,2 +1,10 @@
 ---
-# vars file for helk-kafka
+
+KAFKA_VERSION: 2.4.0
+SCALA_VERSION: 2.13
+KAFKA_LOGS_PATH: /var/log/kafka
+KAFKA_CONSOLE_LOG: /var/log/kafka/helk-kafka.log
+KAFKA_HOME: /opt/helk/kafka
+KAFKA_GID: 910
+KAFKA_UID: 910
+KAFKA_USER: kafkauser
